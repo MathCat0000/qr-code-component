@@ -15,8 +15,10 @@
 body {
     /* Layout: Center the card on the screen using Flexbox */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px 20px;
     
     /* Ensure the body fills the entire viewport height */
     min-height: 100vh;
@@ -67,7 +69,7 @@ p {
 
 .attribution {
     /* Anchor the credits to the bottom of the screen without pushing the card */
-    position: absolute;
+    margin-top: 20px;
     bottom: 10px;
     width: 100%;
     font-size: 11px;
