@@ -73,7 +73,7 @@ I worked with an AI mentor (Gemini) to build this project through a guided, step
 
 ## Author
 
-  - Git Hub - [@marcellobetti](https://www.frontendmentor.io/profile/MathCat0000)
+  - GitHub - [@marcellobetti](https://www.frontendmentor.io/profile/MathCat0000)
 
 <!-- end list -->
 
