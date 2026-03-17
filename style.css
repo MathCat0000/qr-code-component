@@ -1,0 +1,75 @@
+:root {
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+
+    /* Typography */
+    --font-family: 'Outfit', sans-serif; /* sans-serif is the fallback font */
+    --font-size-body: 15px;
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+body {
+    /* Layout: Center the card on the screen using Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Ensure the body fills the entire viewport height */
+    min-height: 100vh;
+    
+    /* Reset margins and apply global styles */
+    margin: 0;
+    background-color: var(--slate-300);
+    font-family: var(--font-family);
+}
+
+.card {
+    background-color: var(--white);
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    /* Responsiveness: Maintain a fixed max width on desktop, flexible on mobile */
+    max-width: 320px;
+    width: 90%;
+}
+
+img {
+    /* Ensure the image fits within the card and matches design roundness */
+    max-width: 100%;
+    border-radius: 11px;
+    display: block;
+}
+
+.card-text {
+    /* Internal spacing for the text container */
+    padding: 24px 13px;
+}
+
+h1 {
+    margin-top: 24px;
+    color: var(--slate-900);
+    font-size: 24px;
+    font-weight: var(--fw-bold);
+}
+
+p {
+    color: var(--slate-500);
+    font-size: var(--font-size-body);
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.attribution {
+    /* Anchor the credits to the bottom of the screen without pushing the card */
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+}
